@@ -1,6 +1,29 @@
 body {
     background-color: #272727;
-    color: #ff99c7;
-    font-size: 50px;
+    color: #ededec;
+    font-size: 30px;
+}
+.main {
+    padding-left: 10%;
     margin: 5%;
+}
+nav {
+    height: 80%;
+    width: 10%;
+    border-right: solid #ff99c7;
+    position: fixed;
+    text-align: center;
+}
+nav a {
+    color: #ff99c7;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+nav a:hover {
+    background-color: #3c3c3c;
+    color: #ffb9e6;
+}
+.wysi {
+    padding-top: 1000px;
 }
